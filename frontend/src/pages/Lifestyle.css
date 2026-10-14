@@ -1,0 +1,753 @@
+/* =========================================
+   VIENLY'S SKIN INTELLIGENCE
+   LIFESTYLE PAGE
+========================================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.lifestyle-page {
+  min-height: 100vh;
+
+  font-family:
+    "Segoe UI",
+    Arial,
+    sans-serif;
+
+  color: #403238;
+
+  background:
+    radial-gradient(
+      circle at 5% 10%,
+      rgba(244, 205, 216, 0.45),
+      transparent 28%
+    ),
+    radial-gradient(
+      circle at 95% 20%,
+      rgba(218, 198, 220, 0.4),
+      transparent 30%
+    ),
+    linear-gradient(
+      135deg,
+      #fffaf9,
+      #fff3f5,
+      #f8f2f7
+    );
+}
+
+
+/* =========================================
+   HEADER
+========================================= */
+
+.lifestyle-header {
+  height: 80px;
+
+  padding: 0 8%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background: rgba(255, 255, 255, 0.84);
+
+  backdrop-filter: blur(15px);
+
+  border-bottom: 1px solid rgba(220, 195, 204, 0.45);
+
+  box-shadow:
+    0 5px 25px rgba(80, 50, 60, 0.05);
+}
+
+.lifestyle-logo {
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+}
+
+.lifestyle-logo-icon {
+  width: 43px;
+  height: 43px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 14px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #805866,
+      #b17e91
+    );
+
+  color: white;
+
+  font-size: 20px;
+
+  box-shadow:
+    0 8px 20px rgba(112, 79, 91, 0.2);
+}
+
+.lifestyle-logo h1 {
+  font-size: 21px;
+
+  letter-spacing: 2px;
+
+  color: #674653;
+}
+
+.lifestyle-logo span {
+  display: block;
+
+  margin-top: 2px;
+
+  font-size: 8px;
+
+  letter-spacing: 2px;
+
+  color: #a77b89;
+}
+
+.lifestyle-badge {
+  padding: 9px 17px;
+
+  border-radius: 25px;
+
+  background: #fff7f8;
+
+  border: 1px solid #ead7dd;
+
+  color: #9b6d7c;
+
+  font-size: 10px;
+
+  font-weight: 700;
+
+  letter-spacing: 1px;
+}
+
+
+/* =========================================
+   MAIN
+========================================= */
+
+.lifestyle-main {
+  width: 92%;
+
+  max-width: 900px;
+
+  margin: auto;
+
+  padding: 55px 0 60px;
+}
+
+
+/* =========================================
+   INTRO
+========================================= */
+
+.lifestyle-intro {
+  text-align: center;
+
+  margin-bottom: 35px;
+}
+
+.lifestyle-intro-icon {
+  width: 72px;
+  height: 72px;
+
+  margin: auto auto 18px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background:
+    linear-gradient(
+      135deg,
+      #f8e5eb,
+      #eed8e1
+    );
+
+  font-size: 32px;
+
+  box-shadow:
+    0 10px 25px rgba(100, 65, 80, 0.1);
+}
+
+.intro-label {
+  display: inline-block;
+
+  margin-bottom: 12px;
+
+  font-size: 10px;
+
+  font-weight: 700;
+
+  letter-spacing: 2px;
+
+  color: #a07885;
+}
+
+.lifestyle-intro h2 {
+  margin-bottom: 15px;
+
+  font-size: clamp(38px, 5vw, 55px);
+
+  line-height: 1.08;
+
+  letter-spacing: -1.5px;
+
+  color: #3d3034;
+}
+
+.lifestyle-intro h2 span {
+  color: #9b6577;
+}
+
+.lifestyle-intro p {
+  max-width: 650px;
+
+  margin: auto;
+
+  font-size: 15px;
+
+  line-height: 1.7;
+
+  color: #7d7075;
+}
+
+
+/* =========================================
+   FORM CARD
+========================================= */
+
+.lifestyle-card {
+  padding: 38px;
+
+  background:
+    rgba(255, 255, 255, 0.8);
+
+  backdrop-filter: blur(15px);
+
+  border:
+    1px solid rgba(232, 210, 218, 0.9);
+
+  border-radius: 28px;
+
+  box-shadow:
+    0 20px 55px rgba(80, 50, 65, 0.09);
+}
+
+
+/* =========================================
+   SECTION
+========================================= */
+
+.lifestyle-section {
+  padding-bottom: 30px;
+
+  margin-bottom: 30px;
+
+  border-bottom: 1px solid #eee0e4;
+}
+
+.lifestyle-section-heading {
+  display: flex;
+
+  align-items: center;
+
+  gap: 15px;
+
+  margin-bottom: 20px;
+}
+
+.lifestyle-number {
+  width: 40px;
+  height: 40px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  flex-shrink: 0;
+
+  border-radius: 12px;
+
+  background: #f8e7ec;
+
+  color: #9a6878;
+
+  font-size: 12px;
+
+  font-weight: 800;
+}
+
+.lifestyle-section-heading h3 {
+  margin-bottom: 3px;
+
+  font-size: 20px;
+
+  color: #4c3940;
+}
+
+.lifestyle-section-heading p {
+  font-size: 12px;
+
+  color: #8b7c81;
+}
+
+
+/* =========================================
+   INPUT
+========================================= */
+
+.input-wrapper {
+  height: 62px;
+
+  display: flex;
+
+  align-items: center;
+
+  padding: 0 18px;
+
+  border: 1px solid #e7d9de;
+
+  border-radius: 16px;
+
+  background: #fffafa;
+
+  transition: 0.25s;
+}
+
+.input-wrapper:focus-within {
+  border-color: #a87384;
+
+  box-shadow:
+    0 0 0 3px rgba(168, 115, 132, 0.1);
+}
+
+.input-icon {
+  margin-right: 14px;
+
+  font-size: 23px;
+}
+
+.input-wrapper input {
+  width: 100%;
+
+  height: 100%;
+
+  border: none;
+
+  outline: none;
+
+  background: transparent;
+
+  color: #514047;
+
+  font-size: 17px;
+}
+
+.input-wrapper input::placeholder {
+  color: #b6a8ad;
+}
+
+.input-unit {
+  white-space: nowrap;
+
+  font-size: 12px;
+
+  color: #9a858c;
+}
+
+
+/* Remove number arrows */
+
+.input-wrapper input::-webkit-outer-spin-button,
+.input-wrapper input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+
+  margin: 0;
+}
+
+
+/* =========================================
+   STRESS
+========================================= */
+
+.stress-options {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 13px;
+}
+
+.stress-option {
+  min-height: 78px;
+
+  padding: 15px;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+  position: relative;
+
+  border: 1px solid #e7d9de;
+
+  border-radius: 16px;
+
+  background: #fffafa;
+
+  cursor: pointer;
+
+  transition: 0.25s;
+}
+
+.stress-option:hover {
+  transform: translateY(-3px);
+
+  border-color: #d4b1bd;
+}
+
+.stress-option.selected {
+  border: 2px solid #a87384;
+
+  background: #fdf0f3;
+}
+
+.stress-option input {
+  display: none;
+}
+
+.stress-option > span {
+  font-size: 24px;
+}
+
+.stress-option div {
+  display: flex;
+
+  flex-direction: column;
+}
+
+.stress-option strong {
+  font-size: 14px;
+
+  color: #514047;
+}
+
+.stress-option small {
+  margin-top: 3px;
+
+  font-size: 10px;
+
+  color: #95878c;
+}
+
+.stress-option b {
+  margin-left: auto;
+
+  color: #8b5c6c;
+
+  font-size: 17px;
+}
+
+
+/* =========================================
+   SAVE
+========================================= */
+
+.save-lifestyle {
+  width: 100%;
+
+  padding: 17px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 12px;
+
+  border: none;
+
+  border-radius: 17px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #805866,
+      #64424e
+    );
+
+  color: white;
+
+  font-size: 16px;
+
+  font-weight: 700;
+
+  cursor: pointer;
+
+  box-shadow:
+    0 12px 30px rgba(112, 79, 91, 0.22);
+
+  transition: 0.25s;
+}
+
+.save-lifestyle span {
+  font-size: 22px;
+}
+
+.save-lifestyle:hover {
+  transform: translateY(-3px);
+
+  box-shadow:
+    0 17px 35px rgba(112, 79, 91, 0.3);
+}
+
+
+/* =========================================
+   MESSAGE
+========================================= */
+
+.lifestyle-message {
+  margin-top: 17px;
+
+  padding: 13px;
+
+  text-align: center;
+
+  border-radius: 12px;
+
+  background: #fff0f0;
+
+  border: 1px solid #f0cccc;
+
+  color: #9b4e4e;
+
+  font-size: 13px;
+}
+
+.lifestyle-message.success {
+  background: #edf8f0;
+
+  border-color: #cce8d2;
+
+  color: #477553;
+}
+
+
+/* =========================================
+   WELLNESS TIP
+========================================= */
+
+.wellness-tip {
+  margin-top: 25px;
+
+  padding: 24px 28px;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 18px;
+
+  border-radius: 22px;
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(248, 230, 235, 0.75),
+      rgba(244, 231, 239, 0.65)
+    );
+
+  border: 1px solid #ead5dc;
+}
+
+.wellness-tip-icon {
+  width: 52px;
+  height: 52px;
+
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: white;
+
+  color: #9b6577;
+
+  font-size: 24px;
+}
+
+.wellness-tip span {
+  font-size: 9px;
+
+  letter-spacing: 2px;
+
+  font-weight: 700;
+
+  color: #a07885;
+}
+
+.wellness-tip h3 {
+  margin: 5px 0;
+
+  font-size: 17px;
+
+  color: #554048;
+}
+
+.wellness-tip p {
+  font-size: 12px;
+
+  line-height: 1.5;
+
+  color: #817479;
+}
+
+
+/* =========================================
+   FOOTER
+========================================= */
+
+.lifestyle-footer {
+  padding: 28px 20px;
+
+  text-align: center;
+
+  font-size: 12px;
+
+  color: #a18c93;
+
+  border-top: 1px solid rgba(220, 195, 204, 0.45);
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 700px) {
+
+  .stress-options {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 600px) {
+
+  .lifestyle-header {
+    height: 72px;
+
+    padding: 0 5%;
+  }
+
+  .lifestyle-logo h1 {
+    font-size: 18px;
+  }
+
+  .lifestyle-logo span {
+    font-size: 7px;
+  }
+
+  .lifestyle-logo-icon {
+    width: 37px;
+    height: 37px;
+
+    font-size: 17px;
+  }
+
+  .lifestyle-badge {
+    display: none;
+  }
+
+  .lifestyle-main {
+    width: 94%;
+
+    padding-top: 40px;
+  }
+
+  .lifestyle-intro h2 {
+    font-size: 38px;
+  }
+
+  .lifestyle-intro p {
+    font-size: 14px;
+  }
+
+  .lifestyle-card {
+    padding: 24px 18px;
+
+    border-radius: 22px;
+  }
+
+  .lifestyle-section-heading h3 {
+    font-size: 18px;
+  }
+
+  .lifestyle-section-heading p {
+    font-size: 11px;
+  }
+
+  .wellness-tip {
+    align-items: flex-start;
+
+    padding: 20px;
+  }
+
+}
+
+
+/* =========================================
+   SMALL PHONE
+========================================= */
+
+@media (max-width: 400px) {
+
+  .lifestyle-intro h2 {
+    font-size: 33px;
+  }
+
+  .input-wrapper {
+    height: 58px;
+
+    padding: 0 14px;
+  }
+
+  .input-icon {
+    margin-right: 9px;
+  }
+
+  .input-wrapper input {
+    font-size: 15px;
+  }
+
+  .input-unit {
+    font-size: 10px;
+  }
+
+}

@@ -1,0 +1,140 @@
+.routine-page {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 32px 22px;
+  color: #302b35;
+}
+
+.routine-header {
+  margin-bottom: 26px;
+}
+
+.routine-eyebrow {
+  color: #a45c83;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.routine-header h1 {
+  margin: 8px 0;
+  font-size: clamp(28px, 5vw, 40px);
+}
+
+.routine-header > p:last-child,
+.routine-subtitle {
+  color: #77717c;
+  line-height: 1.6;
+}
+
+.routine-progress,
+.routine-card {
+  background: #fff;
+  border: 1px solid #eee4eb;
+  border-radius: 18px;
+  padding: 24px;
+  margin-bottom: 22px;
+  box-shadow: 0 5px 20px rgba(65, 40, 60, 0.05);
+}
+
+.progress-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.progress-heading h2,
+.routine-card h2 {
+  margin: 0 0 8px;
+}
+
+.progress-heading p {
+  margin: 0;
+  color: #77717c;
+}
+
+.progress-heading strong {
+  color: #a14f7e;
+  font-size: 28px;
+}
+
+.routine-progress-track {
+  height: 10px;
+  margin-top: 20px;
+  background: #f0e8ef;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.routine-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #d99bbd, #a75c91);
+  border-radius: 20px;
+  transition: width 0.25s ease;
+}
+
+.routine-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.routine-step {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 15px 0;
+  border-bottom: 1px solid #f0eaf0;
+  cursor: pointer;
+  line-height: 1.5;
+}
+
+.routine-step:last-child {
+  border-bottom: none;
+}
+
+.routine-step input {
+  width: 18px;
+  height: 18px;
+  accent-color: #a75c91;
+  flex-shrink: 0;
+}
+
+.step-done {
+  color: #8b858d;
+  text-decoration: line-through;
+}
+
+.routine-success {
+  color: #28754b;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.routine-save-message {
+  color: #28754b;
+  font-size: 14px;
+}
+
+.routine-disclaimer {
+  color: #77717c;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+@media (max-width: 650px) {
+  .routine-page {
+    padding: 22px 14px;
+  }
+
+  .routine-grid {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .routine-progress,
+  .routine-card {
+    padding: 18px;
+  }
+}
